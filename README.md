@@ -1,7 +1,7 @@
-# AI_genderbiases
+# AI_GenderBiases: Debiasing Urdu NLP Models
 
 ## Overview
-This project focuses on mitigating the negative impacts of gender biases in pre-trained NLP models, specifically for the Urdu language. Through the provided scripts and methodologies, users can debias Urdu word embeddings created using a skip-gram model. Our approach involves adjusting word embeddings to reduce gender bias. Then, by performing embedding surgery, the models are gender-debiased at an architectural level, ensuring more equitable and accurate language processing.
+This project focuses on mitigating the negative impacts of gender biases in pre-trained NLP models, specifically for the Urdu language. Through the provided scripts and methodologies, users can debias Urdu word embeddings created using a skip-gram model. Our approach involves adjusting word embeddings to reduce gender bias. Then, by performing embedding surgery, the model (urdu-roberta-small) is gender-debiased at an architectural level, ensuring more equitable and accurate language processing.
 
 ## Urdu Word Embeddings
 The Urdu Word Embedding created for this project utilizes the skip-gram model technique. For an in-depth look into the embedding creation process, please refer the paper: https://aclanthology.org/L18-1155.pdf
@@ -39,7 +39,7 @@ Crowdsourced male-female pairs of words representing gender direction.
 
 ### app.py
 
-Performs embedding surgery on the NLP model urdu-roberta-small, meaning it swaps its word embeddings with our gender-debiased embeddings on an architectural level. The results can be seen using an interface in which an Urdu word prediction model is integrated.
+Performs embedding surgery on the NLP model **urdu-roberta-small**, meaning it swaps its word embeddings with our gender-debiased embeddings on an architectural level. The results can be seen using an interface in which an Urdu word prediction model is integrated.
 
 Run Command: 
 ```bash
