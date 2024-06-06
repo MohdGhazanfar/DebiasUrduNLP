@@ -39,6 +39,12 @@ Crowdsourced male-female pairs of words representing gender direction.
 
 ## How to Use
 For detailed instructions on setting up the environment, running the scripts, and employing the debiased embeddings for further NLP tasks, please refer to the demo notebook.
+To run the application first clone the model (urdu-roberta-small) from _https://huggingface.co/urduhack/roberta-urdu-small_ and place app.py in its directory.
+
+Run Command:
+```bash
+https://huggingface.co/urduhack/roberta-urdu-small
+```
 
 ### `app.py`
 
