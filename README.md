@@ -40,7 +40,7 @@ Crowdsourced male-female pairs of words representing gender direction.
 ## How to Use
 For detailed instructions on setting up the environment, running the scripts, and employing the debiased embeddings for further NLP tasks, please refer to the demo notebook.
 
-### app.py
+### `app.py`
 
 Performs embedding surgery on the NLP model **urdu-roberta-small**, meaning it swaps its word embeddings with our gender-debiased embeddings on an architectural level. The results can be seen using an interface in which an Urdu word prediction model is integrated.
 
